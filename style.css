@@ -1,0 +1,57 @@
+/* Resetting default margins and paddings */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting default font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styling header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling main content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff; /* Blue color */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #28a745; /* Green color */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
